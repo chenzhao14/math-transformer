@@ -1,0 +1,9 @@
+torch
+numpy
+sentencepiece
+tqdm
+matplotlib
+seaborn
+gdown
+requests
+jupyterlab

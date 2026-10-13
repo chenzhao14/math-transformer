@@ -1,0 +1,47 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*api_key*
+*api-key*
+*credentials*
+*.pem
+*.key
+# Environments and editor state
+.venv/
+venv/
+env/
+GenAI/
+.vscode/
+.idea/
+.DS_Store
+.Rhistory
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+# Models, data and generated caches
+models/
+LLMModel/
+checkpoints/
+results/
+output/
+outputs/
+wandb/
+.cache/
+pretok/
+pretok_data/
+ddpm-butterflies-128/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.model
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.zip
+*.tar.gz
+*.log
+data/*
+!data/README.md
